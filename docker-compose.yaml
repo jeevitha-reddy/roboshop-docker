@@ -31,7 +31,7 @@ services:
   #   - payment
 
   redis:
-    image: redis:v1.0.0
+    image: redis
     container_name: redis
 
   user:
